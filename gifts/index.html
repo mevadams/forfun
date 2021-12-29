@@ -1,49 +1,195 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Bubba's 61st Birthday</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Finger+Paint&family=Permanent+Marker&family=Rock+3D&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<header>
-    <h1 class="home">JMAN!</h1>
-    <div class="center">
-    <nav id="nav">
-        <ul class="tabs">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mamaluv.html">Mamaluv</a></li>
-          <li><a href="naenae.html">Nae Nae</a></li>
-          <li><a href="andeaboo.html">Andeaboo</a></li>
-          <li><a href="evameva.html">Eva Meva</a></li>
-          <li><a href="littlechef.html">Li'l Chef</a></li>
-        </ul>
-    </nav>
-</div>
-</header>
-<main>
-    <body>
-        <img src="images/solo.jpeg" class="solo">
-        <p class ="name sig">HAPPY 61st BIRTHDAY TO OUR BUBBA!</p>
-        <img src="images/silly.pdf" class="solo">
-        <p class ="description">This site is a digital collection of birthday cards, one that will last forever!<br><br>Hope you love it!!!<br><br>xx Mevs</p>
-        
-        <ul class ="frontpagegrid">
-            <li><img src="images/BubbaTammyYoung.jpg"></li>
-            <li><p class="frontcaption">Thank you for always looking out for me! I thank the Lord for you! Birthday blessings! I love you Jamie!<br><br><span class="name little">With Love,<br>Aunt Tammy</span></p></li>
-        </ul>
-        <div class="wrap">
-        <img src="images/AdamsFamily.jpg" class="gramma">
-        <img src="images/AdamsFamilyMausWedding.jpg" class="gramma">
-        <p>Happy birthday, Jamie! I appreciate you calling me everyday and I appreciate you using your talent the way you do. I appreciate when Bubba taught you how to draw at four years old and after that you were a good little boy ever since. All I needed to do was give you a piece of paper and a pencil. So many wonderful talents, lead in the school plays as Jesus, just like your daughter Renae. I am proud of you. I have always been proud of you. I love you my darling!<br><br><span class="name little">With Love,<br>Mom</span></p></li>
-        </div>
-    </body>
-    <footer>
-        Est. 1961 | <a href="https://www.instagram.com/jamieadamsart/" class ="insta">@jamieadamsart</a> | Copyright 2021
-        </footer>
-    </main>
-</html>
+main{
+    padding:100px 50px 100px 50px;
+}
+.home{
+    font-size:188px;
+    font-family: 'Finger Paint', cursive;
+    background-image: url("../images/collage.jpg");
+    margin:0;
+    border:0;
+    color:rgba(185, 110, 39, 0.616);
+    padding: 100px 0 100px 0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    width: 100%;
+}
+.band{
+    font-size:72px;
+    font-family: 'Finger Paint', cursive;
+    background-image: url("../images/silly.pdf");
+    margin:0;
+    border:0;
+    color:WHITE;
+    padding: 100px 0 100px 0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    width: 100%;
+}
+.center{
+    padding-top: 50px;
+} 
+nav#nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.sticky{
+    z-index: 1000;
+    position: sticky;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 1px 25px white;
+    margin:0;
+}
+a{
+    font-family: 'EB Garamond', serif;
+    background-color: none;
+    padding: .2em 1em;
+    margin: 0 20px;
+    text-decoration: none;
+    border-bottom: 0.5px black solid;
+    color:black;
+}
+a:hover{
+    background-color: rgba(185, 110, 39);
+    /* background-color: rgb(206, 161, 102); */
+    color:white;
+    border-bottom: none;
+    transition: all .5s;
+}
+.selected{
+    color:rgba(185, 110, 39);
+}
+body{
+    margin:0;
+}
+.name{
+    font-family: 'Rock 3D', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+.little{
+    font-size: 24px;
+    text-align: right;
+    display:block;
+}
+p{
+    text-align:justify;
+    padding: 0 20% 0 20%;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+}
+footer{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    padding-top:100px;
+}
+.insta{
+    padding:0;
+    margin:0;
+}
+.insta:hover{
+    padding:0;
+    background-color: white;
+    color:rgb(206, 161, 102);
+    border-bottom:0.5px solid rgb(206, 161, 102);
+}
+.description{
+    /* width:60%; */
+    font-size: 18px;
+    /* padding: 0 35% 0 35%; */
+    margin: 0 20% 0 20%;
+    /* border-bottom:0.5px solid black; */
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.sig{
+    font-size:45px;
+    margin-top:75px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.frontcaption{
+    margin:0px;
+    padding:0px;
+    width:3in;
+}
+.left{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom:75px;
+}
+.frontpagegrid{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding:100px 0 45px 0;
+    margin: 0 20% 0 20%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+.frontpagegrid img{
+    padding:0 15px 0 15px;
+}
+.frontpagegrid img:first-of-type, .frontpagegrid p:first-of-type{
+    padding-bottom:75px;
+}
+.gramma{
+    padding-bottom:50px;
+    /* padding: 15px 15px 0 0; */
+    /* float:left; */
+}
+.wrap{
+    margin: 0 20% 0 20%;
+    padding:75px 0 75px 0;
+    text-align: center;
+}
+.wrap p{
+    margin:0;
+    padding:0;
+    text-align: justify;
+}
+li, p{
+    /* text-align: left; */
+    display:block;
+}
+.grid{
+    display:block;
+    grid-template-columns: 1fr 1fr;
+    padding-top:100px;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: center;
+}
+img{
+    width:2.5in;
+    height: 2.5in;
+    object-fit: cover;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.solo{
+    width: 60%;
+    height: 40%;
+    object-fit: cover;
+    margin-left:20%;
+    margin-right:20%;
+}
+img:hover{
+    border-bottom: none;
+    transform:scale(0.95);
+    transition: all .5s;
+}
+.video{
+    text-align: center;
+}
