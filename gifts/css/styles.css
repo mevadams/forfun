@@ -14,19 +14,6 @@ main{
     text-align: center;
     width: 100%;
 }
-.band{
-    font-size:72px;
-    font-family: 'Finger Paint', cursive;
-    background-image: url("../images/silly.pdf");
-    margin:0;
-    border:0;
-    color:WHITE;
-    padding: 100px 0 100px 0px;
-    background-size:cover;
-    background-repeat:no-repeat;
-    text-align: center;
-    width: 100%;
-}
 .center{
     padding-top: 50px;
 } 
