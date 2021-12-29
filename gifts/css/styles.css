@@ -105,7 +105,7 @@ footer{
     font-size: 18px;
     /* padding: 0 35% 0 35%; */
     margin: 0 20% 0 20%;
-    /* border-top:0.5px solid black; */
+    /* border-bottom:0.5px solid black; */
     text-align:center;
     padding-top:100px;
     padding-bottom:100px;
@@ -132,11 +132,12 @@ footer{
     padding:100px 0 45px 0;
     margin: 0 20% 0 20%;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center;
     justify-items: center;
     align-items: center;
-    align-content: center;
+    align-content: center; */
+    text-align: center;
 }
 .frontpagegrid img{
     padding:0 15px 0 15px;
@@ -145,12 +146,14 @@ footer{
     padding-bottom:75px;
 }
 .gramma{
-    padding: 15px 15px 0 0;
-    float:left;
+    padding-bottom:50px;
+    /* padding: 15px 15px 0 0; */
+    /* float:left; */
 }
 .wrap{
     margin: 0 20% 0 20%;
-    padding-top:75px;
+    padding:75px 0 75px 0;
+    text-align: center;
 }
 .wrap p{
     margin:0;
