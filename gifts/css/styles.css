@@ -14,6 +14,19 @@ main{
     text-align: center;
     width: 100%;
 }
+.band{
+    font-size:72px;
+    font-family: 'Finger Paint', cursive;
+    background-image: url("../images/silly.pdf");
+    margin:0;
+    border:0;
+    color:WHITE;
+    padding: 100px 0 100px 0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    width: 100%;
+}
 .center{
     padding-top: 50px;
 } 
@@ -115,7 +128,7 @@ footer{
 }
 .frontpagegrid{
     border-top: 0.5px solid black;
-    border-bottom: 0.5px solid black;
+    /* border-bottom: 0.5px solid black; */
     padding:100px 0 45px 0;
     margin: 0 20% 0 20%;
     display:grid;
@@ -132,12 +145,21 @@ footer{
 .frontpagegrid img:first-of-type, .frontpagegrid p:first-of-type{
     padding-bottom:75px;
 }
+.frontpagegrid video:first-of-type, .frontpagegrid p:first-of-type{
+    padding-bottom:75px;
+}
 .gramma{
     padding-bottom:50px;
     /* padding: 15px 15px 0 0; */
     /* float:left; */
 }
+.sqvideo{
+    width:2.5in;
+    height: 2.5in;
+    object-fit: cover;
+}
 .wrap{
+    border-top: 0.5px solid black;
     margin: 0 20% 0 20%;
     padding:75px 0 75px 0;
     text-align: center;
